@@ -38,7 +38,7 @@ function Slider() {
                                             <div class="model-select-icon">
                                                 <select class="form-control">
 
-                                                    <option value="default">year</option>
+                                                    <option value="default"></option>
                                                     <option value="2018">2018</option>
                                                     <option value="2017">2017</option>
                                                     <option value="2016">2016</option>
