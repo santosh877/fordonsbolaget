@@ -1,11 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
-import Header from './Navbar/Header/Header';
+
+import Header from './Components/Navbar/Header/Header';
+import Slider  from './Components/Slider';
+ 
 
 function App() {
   return (
     <div >
       <Header />
+      <Slider/>
     </div>
   );
 }
