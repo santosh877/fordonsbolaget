@@ -19,7 +19,7 @@ export default function App() {
   const [openNavSecond, setOpenNavSecond] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBNavbar expand='lg' light bgColor='light' sticky>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>fordonsbolaget</MDBNavbarBrand>
 
