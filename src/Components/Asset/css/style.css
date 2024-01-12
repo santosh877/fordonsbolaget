@@ -263,7 +263,9 @@ border-left: 1px solid #d1d5db;
     font-weight: 1000;
     text-transform: uppercase;
 }
-
+.searchButton{
+    margin-right: 3%;
+}
 
 /*.welcome-hero-txt*/
 
@@ -382,9 +384,16 @@ border-left: 1px solid #d1d5db;
 /*-------------------------------------
         6. New-cars
 --------------------------------------*/
+/* .new-cars-border{
+    padding: 15px;
+    background: rgba(199, 207, 152, 0.781);
+    background-clip: border-box; 
+} */
 .new-cars{
     background: #f8f9fb;
     padding:112px 0 120px;
+    font-size: large;
+    font-weight: 400;
 }
 .new-cars-content{padding-top:96px;}
 /*.new-cars-txt*/
