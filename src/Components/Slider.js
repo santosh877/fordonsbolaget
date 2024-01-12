@@ -30,104 +30,76 @@ function Slider() {
                                         </div>
                                     </div>
 
+                                    <div class="container">
+                                        <div class="row">
 
-                                    <div class="col-md-offset-1 col-md-2 col-sm-8">
+                                            <div class="col">
+                                                <div class="single-model-search">
+                                                    <h2> Vehicle type</h2>
+                                                    <div class="model-select-icon">
+                                                        <select class="form-control">
+                                                            <option value="default">Vehicle type</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2017">2017</option>
+                                                            <option value="2016">2016</option>
 
-                                        <div class="single-model-search">
-                                            <h2>Vehicle type</h2>
-                                            <div class="model-select-icon">
-                                                <select class="form-control">
-
-                                                    <option value="default"></option>
-                                                    <option value="2018">2018</option>
-                                                    <option value="2017">2017</option>
-                                                    <option value="2016">2016</option>
-
-                                                </select>
+                                                        </select>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="single-model-search">
-                                            <h2>body style</h2>
-                                            <div class="model-select-icon">
-                                                <select class="form-control">
 
-                                                    <option value="default">style</option>
+                                            <div class="col">
+                                                <div class="single-model-search">
+                                                    <h2>Make</h2>
+                                                    <div class="model-select-icon">
+                                                        <select class="form-control">
 
-                                                    <option value="sedan">sedan</option>
+                                                            <option value="default">Make</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2017">2017</option>
+                                                            <option value="2016">2016</option>
 
-                                                    <option value="van">van</option>
-                                                    <option value="roadster">roadster</option>
-
-                                                </select>
+                                                        </select>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-offset-1 col-md-2 col-sm-12">
-                                        <div class="single-model-search">
-                                            <h2>select make</h2>
-                                            <div class="model-select-icon">
-                                                <select class="form-control">
+                                            <div class="col">
+                                                <div class="single-model-search">
+                                                    <h2>Model</h2>
+                                                    <div class="model-select-icon">
+                                                        <select class="form-control">
 
-                                                    <option value="default">make</option>
+                                                            <option value="default">Model</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2017">2017</option>
+                                                            <option value="2016">2016</option>
 
-                                                    <option value="toyota">toyota</option>
-
-                                                    <option value="holden">holden</option>
-                                                    <option value="maecedes-benz">maecedes-benz.</option>
-
-                                                </select>
+                                                        </select>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="single-model-search">
-                                            <h2>car condition</h2>
-                                            <div class="model-select-icon">
-                                                <select class="form-control">
+                                            <div class="col">
+                                                <div class="single-model-search">
+                                                    <h2>New and used</h2>
+                                                    <div class="model-select-icon">
+                                                        <select class="form-control">
 
-                                                    <option value="default">condition</option>
+                                                            <option value="default">New and used</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2017">2017</option>
+                                                            <option value="2016">2016</option>
 
-                                                    <option value="something">something</option>
-
-                                                    <option value="something">something</option>
-                                                    <option value="something">something</option>
-
-                                                </select>
+                                                        </select>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-offset-1 col-md-2 col-sm-12">
-                                        <div class="single-model-search">
-                                            <h2>select model</h2>
-                                            <div class="model-select-icon">
-                                                <select class="form-control">
 
-                                                    <option value="default">model</option>
-
-                                                    <option value="kia-rio">kia-rio</option>
-
-                                                    <option value="mitsubishi">mitsubishi</option>
-                                                    <option value="ford">ford</option>
-
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="single-model-search">
-                                            <h2>select price</h2>
-                                            <div class="model-select-icon">
-                                                <select class="form-control">
-
-                                                    <option value="default">price</option>
-
-                                                    <option value="$0.00">$0.00</option>
-
-                                                    <option value="$0.00">$0.00</option>
-                                                    <option value="$0.00">$0.00</option>
-
-                                                </select>
-                                            </div>
                                         </div>
                                     </div>
+                                    
+                                    <div className="col searchButton mt-5"><button type="button" class="btn btn-outline-success">Search</button></div>   
 
-                                </div>
+</div>
                             </div>
                         </div>
                     </div>
