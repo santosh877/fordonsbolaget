@@ -97,7 +97,7 @@ function Slider() {
                                         </div>
                                     </div>
                                     
-                                    <div className="col searchButton mt-5"><button type="button" class="btn btn-outline-success">Search</button></div>   
+                                    <div className="col searchButton mt-3"><button type="button" class="btn btn-outline-success">Search</button></div>   
 
 </div>
                             </div>

@@ -102,6 +102,10 @@ html,body{height: 100%;}
     position: relative;
     text-align: center;
 }
+.img-fluid {
+    max-width: 100%;
+    height: 469px;
+}
 .section-header h2{
     position: relative;
     font-size: 36px;
@@ -208,10 +212,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(./../../../../public/images/SliderImage.jpg)no-repeat;
+    background:url(./../../../../public/images/SliderImage1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 1;
+    max-width: 100%;
+    height: 530px;
+
+
 }
 
 .height{
@@ -256,7 +264,9 @@ border-left: 1px solid #d1d5db;
 }
 
 /*.welcome-hero-txt*/
-.welcome-hero-txt{text-align: left;padding:390px 0 372px;}
+.welcome-hero-txt{text-align: left;
+    padding: 183px 6px;
+}
 .welcome-hero-txt h2 {
     font-size: 42px;
     color: #fff;
@@ -266,6 +276,57 @@ border-left: 1px solid #d1d5db;
 .searchButton{
     margin-right: 3%;
 }
+.single-new-cars-item{
+    background-color: #efefeb;
+}
+.aboutus{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+}
+.aboutusheader{
+    color: #323232;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.aboutUsUsefullink{
+    font-size: 14px;
+    line-height: 30px;
+    color: #999;
+    text-decoration: none;
+}
+.newsletter{
+    position: relative;
+    filter: brightness(40%); 
+    color: #fff;
+
+    background-image: url(./../../images/Newsletter.jpg);
+    padding: 3rem 0;
+    background-position: center;
+    background-size: cover;
+    z-index: 1
+}
+.newsletterText{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.input-group-text{
+    background: #2ecc71;
+    color: #ffffff;}
+.servicesHeader{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
 
 /*.welcome-hero-txt*/
 
@@ -274,11 +335,11 @@ border-left: 1px solid #d1d5db;
 --------------------------------------*/
 .model-search-content .col-sm-8{padding: 1%;}
 .model-search-content {
+    top:65%;
     padding: 40px 30px;
     background: #fff;
     box-shadow:0 10px 40px 0px rgba(38,40,64,.2);
     position: absolute;
-    bottom: -150px;
     width: 85%;
     border-radius: 3px;
 }
@@ -394,6 +455,18 @@ border-left: 1px solid #d1d5db;
     padding:112px 0 120px;
     font-size: large;
     font-weight: 400;
+}
+.selection{
+    background: #f8f9fb;
+}
+.selectionBtn:hover{
+    background-color: #000;
+    color: white;
+}
+.img-icon{
+    width:30%;
+    margin-left: 5%;
+
 }
 .new-cars-content{padding-top:96px;}
 /*.new-cars-txt*/

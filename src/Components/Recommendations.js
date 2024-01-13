@@ -1,9 +1,14 @@
 import React from "react";
 import cardBrands from '../Components/images/carBrand.jpeg';
 import carLogo from '../Components/images/carLogo.jpg';
-import driver from "../Components/images/woman-driving.jpg";
+import driver from "../Components/images/woman-driving1.jpg";
 import hand from "../Components/images/woman-hands-steering.jpg";
-import cart from "../Components/images/cart.png"
+import cart from "../Components/images/cart.png";
+import sellOnline from "../Components/images/sellOnline.png";
+import compositor from "../Components/images/compositor-removebg-preview.png";
+import battery from "../Components/images/Battery.jpg";
+import speed from "../Components/images/speed-icon.png";
+import range from "../Components/images/range.png"
 
 function Recommendations() {
 	return (
@@ -57,25 +62,17 @@ function Recommendations() {
 				</div>
 			</section>
 
-			<section className="mt-5">
+			<section className="mt-5 ">
 				<div class="container">
 					<div class="row">
 						<h1 className="display-6 text-dark mb-5">Buy your car online with us at Fordonsbolaget</h1>
 						<div class="row justify-content-md-center">
-
 							<div class="new-cars-item">
 								<div class="single-new-cars-item">
 
-
 									<div class="row">
-									<div class="col-md-6 col-sm-12">
-											<div class="new-cars-img">
-												<img src={cardBrands} alt="img" style={{ width: "100%", height: "30%" }} />
-											</div>
-										</div>
 										<div class="col-md-6 col-sm-12">
-
-											<div class="new-cars-txt">
+											<div class="new-cars-txt pt-3">
 												<img src={carLogo} style={{ width: "10%", height: "30%" }} />
 												<h2><a href="#">Our car brands</a></h2>
 												<p>Below you can see some of the car brands we sell.</p>
@@ -106,62 +103,110 @@ function Recommendations() {
 														</div>
 													</div>
 												</div>
-													</div>
+											</div>
 										</div>
-										
+										<div class="col-md-6 col-sm-12">
+											<div class="new-cars-img">
+												<img src={cardBrands} alt="img" style={{ width: "100%", height: "30%" }} />
+											</div>
+										</div>
 									</div>
 
 									<div class="row">
-									
-										
-										<div class="col-md-6 col-sm-12">
-											<div class="new-cars-txt mt-2">
-												<img src={cart} style={{ width: "10%", height: "30%" }} />
-												<h2><a href="#">Buy your car online with open purchase</a></h2>
-												<p>We don't think you should have to miss your upcoming car purchase, just because you don't have the opportunity to visit us here in Stockholm for various reasons. That's why we now offer the Distance package, which means you can buy a car online directly from our garage. With our smart payment solution, you can sign your agreement within minutes via your phone, and have the car delivered to your business or home address within 3 working days.</p>
-											</div>
-										</div>
 										<div class="col-md-6 col-sm-12">
 											<div class="new-cars-img">
 												<img src={driver} alt="img" style={{ width: "100%", height: "30%" }} />
 											</div>
 										</div>
-										
+										<div class="col-md-6 col-sm-12">
+											<div class="new-cars-txt mt-4">
+												<img className="mb-2" src={cart} style={{ width: "9%" }} />
+												<h2><a href="#">Buy your car online with open purchase</a></h2>
+												<p>We don't think you should have to miss your upcoming car purchase, just because you don't have the opportunity to visit us here in Stockholm for various reasons. That's why we now offer the Distance package, which means you can buy a car online directly from our garage. With our smart payment solution, you can sign your agreement within minutes via your phone, and have the car delivered to your business or home address within 3 working days.</p>
+											</div>
+										</div>
 									</div>
 
 									<div class="row">
-									<div class="col-md-6 col-sm-12">
+										<div class="col-md-6 col-sm-12 ">
+											<div class="new-cars-txt mt-4">
+												<img className="mb-2" src={sellOnline} style={{ width: "10%" }} />
+												<h2><a href="#">Sell ​​your car online today</a></h2>
+												<p>Are you thinking about buying a new car and don't know what to do with the current car? Many choose to advertise it via social media, Blocket or the newspaper, but this can often be a time-consuming and slow process.</p>
+
+												<p className="mt-4">	Don't worry, we at Fordonsbolaget are happy to buy your car!													</p>
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-12">
 											<div class="new-cars-img">
 												<img src={hand} alt="img" style={{ width: "100%", height: "30%" }} />
 											</div>
 										</div>
-										
-										<div class="col-md-6 col-sm-12">
-											<div class="new-cars-txt mt-2">
-												<img src={cart} style={{ width: "10%", height: "30%" }} />
-												<h2><a href="#">Sell ​​your car online today</a></h2>
-												<p>
-												Are you thinking about buying a new car and don't know what to do with the current car? Many choose to advertise it via social media, Blocket or the newspaper, but this can often be a time-consuming and slow process.
-
-Don't worry, we at Fordonsbolaget are happy to buy your car!													</p>
-											</div>
-										</div>
-										
-										
 									</div>
-
-
-
-
-
 								</div>
 							</div>
 						</div>
 
 					</div>
 				</div>
-
 			</section>
+
+			<section className="mt-5 selection">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-sm-12">
+							<div class="new-cars-img">
+								<img src={compositor} alt="img" style={{ width: "100%", height: "30%" }} />
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12">
+							<div class="new-cars-txt mt-4">
+								<h2><a href="#">See our selection of Tesla cars</a></h2>
+								<p>Are you looking for a Tesla? At Fordonsbolaget you will find several used Tesla cars for sale, where we will be happy to help you find a model that suits your needs and wishes. Buying a premium car from us is both safe and convenient, regardless of where you are. For those of you who do not have the opportunity to visit our car showroom in Stockholm, we also offer the option of buying the car online using the distance package.									</p>
+								<button type="button" class="btn btn-success selectionBtn mt-3" style={{ width: "100%" }}>See Our Stock</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<h2 className="display-6">Quick facts</h2>
+
+						<div class="col-sm">
+
+							<div class="d-flex flex-column">
+								<div class="p-1">
+									<img className="img-icon" src={battery}/>
+								</div>
+								<div class="p-1">ELECTRICALLY DRIVEN</div>
+                            </div>
+
+						</div>
+
+						<div class="col-sm">
+						<div class="d-flex flex-column">
+								<div class="p-1 text-success">
+									<img className="img-icon" src={speed} />
+								</div>
+								<div class="p-1">0-100 KM/H 3.3 S</div>
+                            </div>
+							
+						</div>
+						<div class="col-sm">
+						<div class="d-flex flex-column">
+								<div class="p-1 text-success">
+									<img className="img-icon" src={range} />
+								</div>
+								<div class="p-1">RANGE 602 KM</div>
+                            </div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</>
 	)
 }
